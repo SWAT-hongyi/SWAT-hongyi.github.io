@@ -1,14 +1,9 @@
-# 大队委员竞选
-## 个人资料
-### 姓名
-赵弘毅
-### 性别
-男
-### 年龄
-10岁
-### 所在中队
-五（1）中队
-### 兴趣爱好
-* 读书
-* 魔方
-* 中国象棋
+```flow
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(no)->op
+&```
